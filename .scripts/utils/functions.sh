@@ -110,11 +110,6 @@ function runStaticContentDeploy() {
     php bin/magento setup:static-content:deploy
 }
 
-function runWeltPixelCssGenerateAllStoreViews() {
-    php bin/magento weltpixel:css:generate --store=default
-    php bin/magento weltpixel:css:generate --store=tranquility_store_view
-}
-
 function runWeltPixelCssGenerate() {
 	echo -e "${YELLOW}Enter the store view code you would like to run WeltPixel CSS Generate on:${NC}"
 	read storecode

@@ -35,7 +35,7 @@ wp=$1
 # Only run weltpixel css generate if "weltpixel" is passed as a parameter
 if [[ -n "$wp" ]]; then
     if [ $wp == "weltpixel" ]; then
-        runWeltPixelCssGenerateAllStoreViews
+        runWeltPixelCssGenerate
     fi
 fi
 

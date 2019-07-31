@@ -20,4 +20,4 @@ handleGitReset
 handleCacheFlush
 handleDisableMaintenance
 
-echo -e "{$GREEN}Deployment Complete. Don't forget to flush CloudFront Cache! :)${NC}"
+echo -e "{$GREEN}Deployment Complete :)${NC}"
